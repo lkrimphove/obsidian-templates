@@ -7,7 +7,7 @@ A repository containing templates and scripts for [Obsidian](https://obsidian.md
 - [Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
 
 ### Recommended
-- [Periodic Notes](https://presearch.com/search?q=obsidian%20periodic%20notes
+- [Periodic Notes](https://presearch.com/search?q=obsidian%20periodic%20notes)
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Dynamic Table of Contents](https://github.com/aidurber/obsidian-plugin-dynamic-toc)
 - [Remotely Save](https://github.com/remotely-save/remotely-save)
