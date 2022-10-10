@@ -1,5 +1,5 @@
-[[<% tp.user.tag_previous_daily_note(tp.file.title,"periodic-notes/daily-notes") %>|Previous Daily Note]] || [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>|Monthly <% tp.date.now("MM", 0, tp.file.title, "YYYY-MM-DD") %>]] || [[<% tp.date.now("gggg-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>|Weekly <% tp.date.now("ww", 0, tp.file.title, "YYYY-MM-DD") %>]]
-# <% tp.file.title %>
+[[<% tp.user.tag_previous_daily_note(tp.file.title,"periodic-notes/daily-notes") %>|Previous Daily Note]] || [[<% tp.date.now("YYYY-MM", 0, tp.file.title, "YYYY-MM-DD") %>|Monthly <% tp.date.now("MM", 0, tp.file.title, "YYYY-MM-DD") %>]]
+# <% tp.date.now("dddd YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>
 [[_TOC_]]
 
 # Tasks
