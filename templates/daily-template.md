@@ -2,7 +2,6 @@
 # <% tp.date.now("dddd YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>
 [[_TOC_]]
 
-# Tasks
 ## Daily Migration
 ```tasks
 not done
@@ -15,6 +14,7 @@ short mode
 hide backlink
 ```
 
+# Tasks
 ## Personal
 - [ ]
 

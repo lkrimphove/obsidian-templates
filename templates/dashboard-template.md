@@ -19,10 +19,11 @@ not done
 due today  
 ```
 
-#  Due this week
+#  Due in 14 days
 ```tasks
 not done
-due after monday and before friday
+due after today
+due before in 14 days
 ```
 
 # No due date
@@ -33,7 +34,4 @@ no scheduled date
 exclude sub-items
 
 path does not include assets
-
-path does not include software-ideas
-path does not include ehrungen
 ```
