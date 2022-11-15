@@ -11,6 +11,7 @@ A repository containing templates and scripts for [Obsidian](https://obsidian.md
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin)
 - [Dynamic Table of Contents](https://github.com/aidurber/obsidian-plugin-dynamic-toc)
 - [Remotely Save](https://github.com/remotely-save/remotely-save)
+- [Web](https://github.com/coddingtonbear/obsidian-web)
 
 ## Setup
 ### Vault structure
@@ -55,7 +56,9 @@ your vault
 ```
 
 The `assets` directory basically contains everything in this repository. I would recommend forking the repository, so that you can change or add templates and safely store them. Them simply clone the repo into your vault.
+
 I also added an `attachment` folder. I set it as the `Attatchment folder path` to it and also configured the `Default location to store new attachments`  to store all newly added files there.
+
 The `Folder to create new notes in` is set to the `staging` folder. The `Default location for new notes` also points to this folder. This way I can create notes on the fly and later move them to wherever they need to be. 
 
 ### Plugin settings
@@ -65,11 +68,17 @@ The `Folder to create new notes in` is set to the `staging` folder. The `Default
 	- Enable folder templates and the assign the [daily](./templates/daily-template.md) and [monthly](./templates/monthly-template.md) templates to the corresponding folders (you may want to add `Periodic Notes` in order to properly use monthly notes)
 - `Tasks`
 	- I personally don't use a `Global task filter`, so you might want to disable this as well in order for everything to work as designed
-- `Periodic Notes` (optional)
+- `Periodic Notes` _(optional)_
 	- enable daily and monthly notes and keep the default formatting (`yyyy-mm-dd` and `yyyy-mm`) and set the templates
-- `Dynamic Table of Contents` (optional)
+- `Dynamic Table of Contents` _(optional)_
 	- Set the `Minimum Header Depth` to 0
 	- If you decide to not use you probably want to remove the `[[_TOC]]`-Tag from the templates
+- `Web` _(optional)_
+	- I use the `Web`-plugin to quickly append useful links to my daily notes.
+	- install the [Chrome-extension](https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad)
+	- chose `PATCH` and set `API URL` to `/periodic/daily`
+	- set `HTTP Headers` to `Heading: Resources` (this will append the content below the "Resources" heading in your daily note)
+	- set `content` to `- [{{page.title}}]({{page.url}}) {{#if page.selectedText}}{{quote page.selectedText}}{{/if}}`
 
 ### Dashboard
 Create a dashboard by simply copying the [dashboard-template](./templates/dashboard-template.md) somewhere else into your note and renaming it to `dasboard`.
@@ -97,6 +106,7 @@ The daily-note's daily migration section will show you all non-completed tasks f
 
 ### Dashboard
 I have the calendar from the  `Calendar`-plugin open in the right sidebar so that I can switch quickly between daily notes.
+
 Below that I opened and pinned my dashboard-note. That way I always have the most urgent tasks on my screen.
 
 ## Support me

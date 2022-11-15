@@ -38,7 +38,7 @@ short mode
 ```
 
 # Lessons learned
-
+## Resources
 
 # Tags
 #daily #personal #university #work #gsk
