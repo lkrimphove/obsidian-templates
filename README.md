@@ -109,6 +109,9 @@ I have the calendar from the  `Calendar`-plugin open in the right sidebar so tha
 
 Below that I opened and pinned my dashboard-note. That way I always have the most urgent tasks on my screen.
 
+### [Project management](./templates/project-management/README.md)
+I have not worked a lot with those templates, yet. It's kind of an open-alpha-feature. Also it requires [Dataview](https://github.com/blacksmithgu/obsidian-dataview).
+
 ## Support me
 If you like my work please consider supporting me by buying me a coffee:
 
