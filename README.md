@@ -81,13 +81,13 @@ The `Folder to create new notes in` is set to the `staging` folder. The `Default
 	- set `content` to `- [{{page.title}}]({{page.url}}) {{#if page.selectedText}}{{quote page.selectedText}}{{/if}}`
 
 ### Dashboard
-Create a dashboard by simply copying the [dashboard-template](./templates/dashboard-template.md) somewhere else into your note and renaming it to `dasboard`.
+Create a dashboard by simply copying the [dashboard-template](./templates/dashboard-template.md) somewhere else into your note and renaming it to `dashboard`.
 
 You can exclude tasks from all `Tasks`-queries by adding filters. This is especially useful if you don't use a global task filter and don't want your dashboard to be cluttered. Here are some examples:
 - `filename does not include <filename>`
 - `path does not include <path>`
 You can also limit the query to only retrieve tasks from designated files or folders:
-- `path does include <filename>
+- `path does include <filename>`
 - `path does include <path>`
 There are multiple other filters you can use in order to customize your queries. You can learn about them by having a look into the official [Tasks documentation](https://obsidian-tasks-group.github.io/obsidian-tasks/queries/filters/).
 
