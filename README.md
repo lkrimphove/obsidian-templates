@@ -55,9 +55,9 @@ your vault
     └── ...
 ```
 
-The `assets` directory basically contains everything in this repository. I would recommend forking the repository, so that you can change or add templates and safely store them. Them simply clone the repo into your vault.
+The `assets` directory basically contains everything in this repository. I would recommend forking the repository, so that you can change or add templates and safely store them. Then simply clone the repo into your vault.
 
-I also added an `attachment` folder. I set it as the `Attatchment folder path` to it and also configured the `Default location to store new attachments`  to store all newly added files there.
+I also added an `attachment` folder. I set it as the `Attatchment folder path` and also configured the `Default location to store new attachments`  to store all newly added files there.
 
 The `Folder to create new notes in` is set to the `staging` folder. The `Default location for new notes` also points to this folder. This way I can create notes on the fly and later move them to wherever they need to be. 
 
@@ -72,7 +72,7 @@ The `Folder to create new notes in` is set to the `staging` folder. The `Default
 	- enable daily and monthly notes and keep the default formatting (`yyyy-mm-dd` and `yyyy-mm`) and set the templates
 - `Dynamic Table of Contents` _(optional)_
 	- Set the `Minimum Header Depth` to 0
-	- If you decide to not use you probably want to remove the `[[_TOC]]`-Tag from the templates
+	- If you decide to not use `Dynamic Table of Contents` you probably want to remove the `[[_TOC]]`-Tag from the templates
 - `Web` _(optional)_
 	- I use the `Web`-plugin to quickly append useful links to my daily notes.
 	- install the [Chrome-extension](https://chrome.google.com/webstore/detail/obsidian-web/edoacekkjanmingkbkgjndndibhkegad)
